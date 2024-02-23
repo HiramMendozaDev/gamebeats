@@ -1,0 +1,46 @@
+.musicplayer {
+    display: grid;
+    min-height: 9rem;
+    background-color: darkblue;
+    grid-template-columns: repeat(3, 33%);
+
+}
+
+/* Song info */
+.musicplayer__song {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: repeat(3, 3rem);
+    column-gap: 1rem;
+}
+
+.musicplayer__cover {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    grid-row: 1 / 4;
+}
+
+/* Controls */
+.musicplayer__controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.musicplayer__controls i {
+    font-size: 3rem;
+}
+
+/*Share and others*/
+.musicplayer__share {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.musicplayer__share i {
+    font-size: 3rem;
+    margin-right: 1rem;
+}

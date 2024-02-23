@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import NavigationBar from './components/NavigationBar'
 import './App.css'
+import MusicPlayer from './components/MusicPlayer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
      <NavigationBar />
+     <MusicPlayer />
     </>
   )
 }

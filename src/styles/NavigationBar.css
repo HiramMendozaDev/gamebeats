@@ -1,0 +1,60 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #1231ff;
+    color: #fff;
+    border-bottom: 5px solid red;
+}
+
+.navigation__div {
+    /*border: 1px solid red;*/
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation__title {
+    font-family: 'CocoBiker-Bold', 'CocoBiker', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navigation__searchbar {
+    height: 2.1rem;
+    width: 18rem;
+    align-self: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.navigation__list {
+    /*border: 1px solid red;*/
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation__link {
+    list-style: none;
+    font-family: 'LoveloBlack', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-self: last baseline;
+}
+
+.navigation__link:hover {
+
+}
+
+.navigation__button {
+    font-family: 'LoveloBlack', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
